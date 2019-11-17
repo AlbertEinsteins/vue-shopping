@@ -1,7 +1,6 @@
 <template>
-  <div id="app">
-
-    <router-view></router-view>
+  <div class="">
+    登陆组件
   </div>
 </template>
 
