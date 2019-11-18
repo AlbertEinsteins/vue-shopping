@@ -8,14 +8,14 @@
       </div>
 
       <!-- 登陆表单区域 -->
-      <el-form ref="formRef" :model="form" :rules="rules" label-width="80px" class="form">
+      <el-form ref="formRef" :model="form" :rules="rules" class="form">
         <!-- 用户名 -->
-        <el-form-item label="Username:" prop="username">
-          <el-input v-model="form.username" prefix-icon="iconfont icon-user"></el-input>
+        <el-form-item prop="username">
+          <el-input placeholder="username" v-model="form.username" prefix-icon="iconfont icon-user"></el-input>
         </el-form-item>
         <!-- 密码 -->
-        <el-form-item label="Password:" prop="password">
-          <el-input v-model="form.password" type="password" prefix-icon="iconfont icon-3702mima"></el-input>
+        <el-form-item prop="password">
+          <el-input placeholder="password"  v-model="form.password" type="password" prefix-icon="iconfont icon-3702mima"></el-input>
         </el-form-item>
 
         <el-form-item class="form-btn">
