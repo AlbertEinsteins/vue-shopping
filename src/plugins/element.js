@@ -6,7 +6,8 @@ import
     Submenu, MenuItemGroup, MenuItem, Breadcrumb,
     BreadcrumbItem, Card, Row, Col, Table,
     TableColumn, Switch, Tooltip, Pagination,
-    Dialog, MessageBox
+    Dialog, MessageBox, Tag, Select, Option,
+    Tree
   } 
 from 'element-ui'
 
@@ -34,6 +35,10 @@ Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
 Vue.use(Dialog)
+Vue.use(Tag)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Tree)
 
 // Message组件注册方式
 Vue.component(Message)
