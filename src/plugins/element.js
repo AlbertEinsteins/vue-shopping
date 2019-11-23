@@ -7,7 +7,7 @@ import
     BreadcrumbItem, Card, Row, Col, Table,
     TableColumn, Switch, Tooltip, Pagination,
     Dialog, MessageBox, Tag, Select, Option,
-    Tree, Cascader
+    Tree, Cascader, Alert, Tabs, TabPane
   } 
 from 'element-ui'
 
@@ -40,6 +40,9 @@ Vue.use(Select)
 Vue.use(Option)
 Vue.use(Tree)
 Vue.use(Cascader)
+Vue.use(Alert)
+Vue.use(Tabs)
+Vue.use(TabPane)
 
 // Message组件注册方式
 Vue.component(Message)
